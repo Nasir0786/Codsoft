@@ -1,0 +1,39 @@
+Number Guessing Game
+The Number Guessing Game is a simple Java Swing-based guessing game where the player has to guess a randomly generated number within a specified range. The game provides the option to set the number of attempts for each round and offers a "hint" option to reveal the last digit of the target number.
+
+How to Play
+Getting Started
+
+To play the Number Guessing Game, make sure you have Java and Eclipse IDE installed on your computer.
+
+Clone the Repository
+
+Clone this repository to your local machine using the following command:
+
+bash
+Copy code
+git clone https://github.com/your-username/NumberGuessingGame.git
+Import Project into Eclipse
+
+Open Eclipse IDE and choose "File" > "Import."
+Select "Existing Projects into Workspace" and click "Next."
+Browse to the cloned repository directory and select the project (NumberGuessingGame).
+Click "Finish" to import the project into Eclipse.
+Run the Game
+
+Open the NumberGuessingGame.java file in the Number_Game package.
+Right-click on the code and select "Run As" > "Java Application."
+The GUI for the Number Guessing Game will appear.
+Game Instructions
+
+Enter the desired number of attempts for each round in the provided text field.
+Click the "Start Game" button to begin a round.
+The game will generate a random number between 1 and 100, and you have to guess the number within the given attempts.
+When prompted, enter your guess in the input dialog. You can also type "hint" to get a clue about the last digit of the target number.
+After each round, you will receive feedback on whether your guess is too low, too high, or correct.
+The game will keep track of your score based on the number of successful rounds.
+You can choose to play again after each round, or you can exit the game.
+Enjoy the Game
+
+Have fun playing the Number Guessing Game and challenge yourself to improve your guessing skills!
+
